@@ -18,7 +18,7 @@ function sedasEratostenes($x){
 }
 
 $x = 30;
-echo "Números primos hasta $x: " .sedasEratostenes($x);
+echo "Números primos hasta $x: " . implode(", ", sedasEratostenes($x));
 
 
 ?>
